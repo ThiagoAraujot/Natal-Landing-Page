@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    background-color:#F7C7B9;
+}
+
+nav div {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161212;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+
+nav ul li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161212;
+}
+
+nav li:hover {
+    cursor: pointer;
+    color: #DA2535;
+    font-weight: 700;
+    transition: .2s;
+}
+
+#banner {
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F7C7B9;
+}
+
+
+#banner-txt h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161212;
+}
+
+#banner-txt p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+}
+
+#banner-p {
+    margin-top: 30px;
+}
+
+#banner-txt button {
+    margin-top: 30px;
+    background-color: #DA2535;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 12px 32px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9F9F9;
+    border: none;
+}
+
+#banner-txt button:hover {
+    box-shadow: 0px 0px 10px #DA2535;
+    transition: .3s;
+}
+
+#acessorios {
+    background-color: #F9F9F9;
+    height: 625px;
+}
+
+#acessorios h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 1em;
+    color: #161212;
+}
+
+#acessorios p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #404040;
+    margin-bottom: 20px;
+}
+
+#acessorios-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.acessorios-img {
+    position: relative;
+    left: 75px;
+}
+
+
+#acessorios-container h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#comemore {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F7C7B9;
+    height: 625px;
+}
+
+#comemore-txt h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161212;
+    margin-bottom: 30px;
+}
+
+#comemore-txt p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #404040;
+    margin-bottom: 30px;
+}
+
+#comemore-txt button {
+    border-radius: 8px;
+    padding: 12px 32px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background-color: #DA2535;
+    border: none;
+    color: #F9F9F9;
+}
+
+#comemore-txt button:hover {
+    box-shadow: 0px 0px 10px #DA2535;
+    transition: .3s;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 50px;
+}
+
+footer li {
+    background-color: #da253442;
+    border-radius: 50%;
+}
+
+footer img {
+    cursor: pointer;
+    padding: 0.4em;
+    display: flex;
+    justify-content: center;
+}
+
